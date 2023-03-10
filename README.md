@@ -1,2 +1,2 @@
 # CSS-BASIC
-learn CSS basic to advanced
+Learn CSS basic to advanced
