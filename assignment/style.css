@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+.my-nav {
+  position: sticky;
+  width: 100%;
+  height: 60px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-section {
+  border: 2px solid black;
+  width: 100px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  bottom: 100px;
+}
+
+.my-footer {
+  position: fixed;
+  background-color: rebeccapurple;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+  padding: 100px;
+  /* margin: 100px; */
+  color: white;
+}

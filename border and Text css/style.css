@@ -1,0 +1,58 @@
+.border {
+  margin: 10px;
+  padding: 20px;
+  color: brown;
+  border: 2px solid brown;
+  width: 200px;
+  height: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.border2 {
+  margin: 10px;
+  padding: 20px;
+  color: brown;
+  border: 2px solid brown;
+  width: 200px;
+  height: 200px;
+  padding-inline-end: 200px;
+}
+
+h1{
+  font-family: 'Tilt Prism', cursive;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  text-shadow: 4px 4px 5px red;
+  text-transform: uppercase;
+  color: blue;
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline red;
+  word-spacing: 1rem;
+  letter-spacing: 0.2rem;
+  
+}
+
+p{
+  color: brown;
+  text-indent: 20px;
+  letter-spacing: 0.1rem;
+  line-height: 1.8rem;
+  /* text-shadow: 2px; */
+  font-size: 2rem;
+  font-weight: 200;
+  font-style: normal;
+}
+
+a{
+  text-decoration: underline;
+  cursor: pointer;
+  color: dodgerblue;
+  text-decoration-style: wavy;
+  text-indent: 50px;
+}
