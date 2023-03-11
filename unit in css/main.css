@@ -1,0 +1,23 @@
+main {
+  border: 5px solid brown;
+  /* width: 50%; */
+  width: 60vw;
+}
+
+section {
+  border: 5px dotted blue;
+  width: 50%;
+}
+
+body {
+  font-size: 2em;
+  text-align: center;
+}
+
+header {
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 3rem;
+}

@@ -1,0 +1,51 @@
+.container {
+  height: 600px;
+  width: 300px;
+  background-color: grey;
+  margin: 100px;
+  position: relative;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.red {
+  position: relative;
+  background-color: red;
+  color: white;
+  top: 100px;
+  right: 50px;
+  left: 100px;
+}
+
+.green {
+  position: absolute;
+  background-color: green;
+  color: white;
+  top: 0px;
+  right: 10px;
+  bottom: 30px;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.spacer {
+  height: 100vh;
+  /* background-color: brown; */
+  color: white;
+}
+
+.purple{
+    background-color: purple;
+    position: sticky;
+    top: 50px;
+}
