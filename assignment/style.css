@@ -1,36 +1,69 @@
 * {
   margin: 0;
   padding: 0px;
+  box-sizing: border-box;
 }
-.my-nav {
+nav {
   position: sticky;
   width: 100%;
   height: 60px;
+  top: 0;
   background-color: brown;
   color: white;
   text-align: center;
   justify-content: center;
+  z-index: 1;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2rem;
+}
+
+aside {
+  width: 300px;
+  background-color: red;
+  height: 80vh;
+  position: sticky;
+  top: 80px;
+  float: right;
+}
+
+.aside-container {
+  width: 100%;
+  height: 150vh;
+  position: absolute;
+  top: 0;
 }
 
 .main-section {
   border: 2px solid black;
-  width: 100px;
-  height: 400px;
+  width: 50%;
+  height: 250vh;
+  position: relative;
   text-align: center;
   justify-content: center;
-  position: relative;
-  top: 20px;
-  bottom: 100px;
+  left: 20%;
+  right: 30%;
+  padding: 110px 50px;
+  font-weight: bold;
+}
+
+.conatct {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  background-color: blue;
+  right: 40px;
+  bottom: 40px;
+  border-radius: 40px;
 }
 
 .my-footer {
-  position: fixed;
-  background-color: rebeccapurple;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: white;
   text-align: center;
   justify-content: center;
-  width: 100%;
-  height: 30%;
-  padding: 100px;
-  /* margin: 100px; */
-  color: white;
 }

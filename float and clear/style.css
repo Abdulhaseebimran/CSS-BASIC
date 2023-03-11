@@ -1,0 +1,28 @@
+.container{
+    width: 600px;
+    height: 300px;
+    border: 2px solid red;
+    /* overflow: hidden; */
+    /* overflow: visible; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+.block1{
+    overflow: auto;
+}
+.img1{
+    float: right;
+    margin-left: 40px;
+}
+.p1{
+    margin-right: 100px;
+
+}
+
+.img2{
+    float: left;
+}
+
+.p2{
+    clear: right;
+}
