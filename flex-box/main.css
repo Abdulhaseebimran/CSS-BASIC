@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  border: 2px solid red;
+  height: 400px;
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* gap: 10px; */
+  /* row-gap: 10px;
+    column-gap: 30px; */
+  flex-flow: wrap row;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
+.box {
+  border: 2px solid green;
+  /* margin: 10px 0; */
+  width: 80px;
+}
+
+#box1 {
+  order: 2;
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 100px;
+}
+
+#box3{
+  order: 1;
+  flex-grow: 1;
+}
