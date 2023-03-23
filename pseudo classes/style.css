@@ -1,0 +1,53 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 40px;
+}
+
+.primary-button:hover {
+  color: red;
+  background-color: aquamarine;
+}
+
+.primary-button:link {
+  color: green;
+  padding: 10px;
+}
+
+.primary-button:visited {
+  color: orange;
+}
+
+.primary-button:active {
+  color: black;
+  background-color: white;
+  border: 2px solid gray;
+}
+
+ul li:first-child{
+    background-color: blueviolet;
+}
+
+ul li:last-child{
+    background-color: chocolate;
+}
+
+ul li:nth-child(4){
+    background-color: red;
+}
+
+::selection{
+    color: greenyellow;
+    background-color: black;
+}
+
+h2::first-letter{
+    font-size: 2rem;
+}
+
+p::first-line{
+    background-color: crimson;
+}
+
+h3::before{
+    
+}

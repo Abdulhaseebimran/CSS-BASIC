@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-text-color: #222;
+  --secondary-text-color: #444;
+  --card-background-color: #fff;
+  --background-color: #eee;
+  --default-margin: 30px;
+}
+
+.dark {
+  --primary-text-color: #fff;
+  --secondary-text-color: #ddd;
+  --card-background-color: #333;
+  --background-color: #111;
+  --default-margin: 30px;
+}
+.container {
+  padding: 40px;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.box {
+  /* text-align: center; */
+  padding: var(--default-margin);
+  background-color: var(--card-background-color);
+  margin-block: var(--default-margin);
+  border-radius: var(--default-margin);
+}
+
+h2 {
+  color: var(--primary-text-color);
+  margin-bottom: var(--default-margin);
+}
+
+p {
+  color: var(--secondary-text-color);
+}

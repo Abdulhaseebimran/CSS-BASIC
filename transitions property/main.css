@@ -1,0 +1,36 @@
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: blueviolet;
+  transition-duration: 0.3s;
+  transition-property: all;
+  cursor: progress;
+  transition-delay: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.box:hover {
+  background-color: teal;
+  border-radius: 50%;
+  transform: rotate(180deg);
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.item{
+    font-size: 2rem;
+    padding: 8px 12px;
+    transition: 0.3s ease-in;
+}
+
+.item:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transform: translateY(-10px);
+}
